@@ -1,0 +1,6 @@
+<xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
+  <category name="CB MÀU SẮC" colour="#04D30D" icon="palette">
+    <block type="xbot_input_color_sensor_read" />
+    <block type="xbot_input_color_sensor_detect" />
+  </category>
+</xml>

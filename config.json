@@ -1,0 +1,13 @@
+{
+    "name": "COLOR SENSOR",
+    "description": "Mục mở rộng sử dụng các module cảm biến màu sắc",
+    "libs": [
+    ],
+    "blocks": [
+        "definition.js"
+    ],
+    "toolbox": "toolbox.xml",
+    "languages": {
+    },
+    "poster": "poster.png"
+}
