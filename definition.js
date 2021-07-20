@@ -67,8 +67,8 @@ Blockly.Blocks["xbot_input_color_sensor_detect"] = {
             ["trắng","w"],
             ["đen","d"],
             ["đỏ","r"],
-            ["xanh lá", "g"],
-            ["xanh dương", "b"],
+            ["xanh lá (green)", "g"],
+            ["xanh dương (blue)", "b"],
           ],
         },
         {
@@ -90,6 +90,7 @@ Blockly.Python["xbot_input_color_sensor_read"] = function (block) {
   var port = block.getFieldValue("port");
   var RGB = block.getFieldValue("RGB");
   // TODO: Assemble Python into code variable.
+  Blockly.Python.definitions_['import_color_sensor'] = "from color_sensor import color_sensor";
   var code = "color_sensor.read("+ port +", '" + RGB + "')";
   return [code, Blockly.Python.ORDER_NONE];
 };
@@ -98,6 +99,7 @@ Blockly.Python["xbot_input_color_sensor_detect"] = function (block) {
   var port = block.getFieldValue("port");
   var color = block.getFieldValue("color");
   // TODO: Assemble Python into code variable.
+  Blockly.Python.definitions_['import_color_sensor'] = "from color_sensor import color_sensor";
   var code = "color_sensor.detect("+ port +", '" + color +"')";
   return [code, Blockly.Python.ORDER_NONE];
 };
