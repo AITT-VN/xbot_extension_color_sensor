@@ -1,7 +1,7 @@
 Blockly.Blocks["xbot_input_color_sensor_read"] = {
   init: function () {
     this.jsonInit({
-      colour: "#ff3333",
+      colour: "#ae00ae",
       tooltip: "",
       message0: "%3 đọc cảm biến màu sắc cổng %1 giá trị %2",
       args0: [
@@ -44,7 +44,7 @@ Blockly.Blocks["xbot_input_color_sensor_read"] = {
 Blockly.Blocks["xbot_input_color_sensor_detect"] = {
   init: function () {
     this.jsonInit({
-      colour: "#ff3333",
+      colour: "#ae00ae",
       tooltip: "",
       message0: "%3 cảm biến màu sắc cổng %1 phát hiện màu %2",
       args0: [
