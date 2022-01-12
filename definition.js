@@ -69,6 +69,7 @@ Blockly.Blocks["xbot_input_color_sensor_detect"] = {
             ["đỏ","r"],
             ["xanh lá (green)", "g"],
             ["xanh dương (blue)", "b"],
+            ["vàng", "y"],
           ],
         },
         {
